@@ -294,12 +294,14 @@ a {
 }
 
 .row,
-.row-10 {
+.row-10,
+.row-20 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.row-10 {
+.row-10,
+.row-20 {
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -472,7 +474,22 @@ a {
     padding-right: 10px;
 }
 
+.gutter-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 @media screen and (min-width: 768px) {
+    .row-10-768 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .row-20-768 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
     .col-1-768 {
         width: 8.3333333333%;
     }
@@ -616,9 +633,29 @@ a {
     .push-11-768 {
         margin-left: 91.6666666666%;
     }
+    
+    .gutter-10-768 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gutter-20-768 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+    .row-10-1024 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .row-20-1024 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
     .col-1-1024 {
         width: 8.3333333333%;
     }
@@ -761,6 +798,16 @@ a {
 
     .push-11-1024 {
         margin-left: 91.6666666666%;
+    }
+    
+    .gutter-10-1024 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gutter-20-1024 {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -1159,7 +1206,7 @@ input {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .a-12 {
         height: 640px;
     }
@@ -1228,10 +1275,13 @@ input {
     padding: 15px 30px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: background-color 250ms, border-color 250ms;
 }
 
 .a-14:hover {
     animation-name: rubber;
+    background: #54CBCB;
+    border-color: #54CBCB;
 }
 
 @keyframes rubber {
@@ -1374,7 +1424,7 @@ input {
 
 .a-18__2 {
     background: #FFF;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 20px 10px 0;
     position: relative;
 }
 
