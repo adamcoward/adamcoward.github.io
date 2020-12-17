@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="402" viewBox="0 0 1440 402">
+    <defs>
+        <linearGradient id="q8a0p9qu5a" x1="83.043%" x2="40.811%" y1="88.531%" y2="7.324%">
+            <stop offset="0%" stop-color="#00A9A6"/>
+            <stop offset="100%" stop-color="#47AB35"/>
+        </linearGradient>
+        <linearGradient id="natkdtk3pb" x1="18.262%" x2="48.026%" y1="79.348%" y2="28.395%">
+            <stop offset="0%" stop-color="#005A4D"/>
+            <stop offset="26%" stop-color="#1B7944"/>
+            <stop offset="55%" stop-color="#33953C"/>
+            <stop offset="81%" stop-color="#42A537"/>
+            <stop offset="100%" stop-color="#47AB35"/>
+        </linearGradient>
+        <linearGradient id="bs62voaq2c" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FAE242"/>
+            <stop offset="14%" stop-color="#F1DF40"/>
+            <stop offset="36%" stop-color="#D9D73C"/>
+            <stop offset="65%" stop-color="#B2CA35"/>
+            <stop offset="97%" stop-color="#7DB82C"/>
+            <stop offset="100%" stop-color="#78B62B"/>
+        </linearGradient>
+        <path id="3q26y0rcmd" d="M-1 2L3.5 9.5 8 17 12.5 9.5 17 2z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g fill="#565A5C" opacity=".95">
+                    <path d="M0 0H1440V282H0z" transform="translate(0 -2590) translate(0 2590)"/>
+                </g>
+                <path stroke="#FFF" stroke-linecap="square" d="M736.5 34.5L736.5 240.5" opacity=".1" transform="translate(0 -2590) translate(0 2590)"/>
+                <g fill="#FFF" font-family="Lato-Regular, Lato" font-size="16">
+                    <text transform="translate(0 -2590) translate(0 2590) translate(1017 74)">
+                        <tspan x="0" y="16">Terms of use</tspan>
+                    </text>
+                    <text transform="translate(0 -2590) translate(0 2590) translate(1017 74)">
+                        <tspan x="118" y="16">Privacy policy</tspan>
+                    </text>
+                </g>
+                <text fill="#878A8C" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -2590) translate(0 2590)">
+                    <tspan x="151" y="324">Downing LLP (&quot;Downing&quot;) is authorised and regulated by the Financial Conduct Authority (&quot;FCA&quot;). Downing is not permitted to advise you. Investors are strongly urged to seek independent professional advice when </tspan> <tspan x="151" y="341">considering an investment in a VCT, EIS, IHT relief or other investments (&quot;Investments&quot;). These Investments carry a higher risk than many other types of investment. The value of the tax reliefs referred to on this website </tspan> <tspan x="151" y="358">will depend on personal circumstances. Past performance is not a guide to the future and investors are encouraged to take independent advice before considering an investment. Before entering the Investors area of this </tspan> <tspan x="151" y="375">website you will need to confirm that you have read and understood the Important Notice, including the risk factors listed within it</tspan> <tspan x="826.528" y="375" letter-spacing=".611">.</tspan>
+                </text>
+                <g fill-rule="nonzero">
+                    <g>
+                        <path fill="#FFF" d="M0 30.633h8.182c1.53.003 3.053.199 4.533.583 1.482.367 2.878 1.02 4.107 1.924 1.249.932 2.264 2.14 2.968 3.527.76 1.457 1.14 3.274 1.14 5.45.047 1.798-.344 3.582-1.14 5.197-.715 1.392-1.728 2.612-2.968 3.57-1.228.938-2.621 1.637-4.107 2.062-1.472.436-2.998.661-4.533.667H0v-22.98zm7.532 19.415c1.075.005 2.146-.114 3.193-.356 1.038-.234 2.022-.664 2.897-1.266.885-.628 1.606-1.458 2.102-2.42.582-1.198.862-2.518.815-3.848 0-1.645-.272-2.988-.815-4.026-.487-.973-1.21-1.81-2.102-2.437-.874-.59-1.86-.998-2.897-1.199-1.05-.214-2.12-.322-3.193-.32H4.107v15.91l3.425-.038zM22.506 45.682c-.015-1.156.213-2.301.67-3.363.424-.967 1.04-1.84 1.809-2.565.778-.73 1.695-1.298 2.697-1.67 2.148-.778 4.503-.778 6.65 0 1.005.367 1.925.93 2.708 1.657.77.725 1.386 1.597 1.809 2.565.456 1.06.684 2.205.67 3.36.017 1.162-.21 2.315-.664 3.385-.42.984-1.036 1.874-1.809 2.616-.783.737-1.702 1.317-2.707 1.706-2.14.82-4.51.82-6.65 0-1.005-.39-1.924-.969-2.707-1.706-.771-.743-1.385-1.633-1.806-2.616-.455-1.065-.683-2.212-.67-3.37zm3.976 0c.002.616.095 1.228.277 1.817.176.588.459 1.139.833 1.626.378.484.855.882 1.4 1.167 1.28.607 2.765.607 4.043 0 .546-.286 1.024-.683 1.404-1.167.372-.488.653-1.039.83-1.626.182-.589.275-1.201.277-1.817-.001-.611-.095-1.219-.277-1.802-.179-.58-.46-1.122-.83-1.603-.377-.483-.856-.877-1.404-1.154-1.283-.586-2.759-.586-4.043 0-.547.276-1.025.67-1.4 1.154-.372.48-.655 1.023-.833 1.603-.183.583-.276 1.19-.277 1.802zM39.525 37.955L43.777 37.955 47.038 49.125 47.102 49.125 50.462 37.955 54.647 37.955 58.036 49.125 58.104 49.125 61.429 37.955 65.504 37.955 60.064 53.539 56.086 53.539 52.545 42.639 52.468 42.639 48.946 53.539 44.968 53.539zM66.901 37.955h3.718v2.498h.064c.4-.84 1.027-1.554 1.81-2.062.898-.605 1.963-.917 3.048-.89.904-.027 1.802.157 2.623.534.697.332 1.31.815 1.793 1.414.474.595.823 1.279 1.027 2.01.217.762.325 1.55.322 2.34v9.74h-3.908v-8.636c-.001-.479-.034-.956-.096-1.43-.057-.471-.2-.928-.425-1.347-.214-.397-.52-.737-.895-.99-.455-.279-.983-.414-1.516-.388-.567-.015-1.128.113-1.632.372-.44.236-.823.564-1.124.961-.302.406-.528.862-.67 1.347-.15.5-.227 1.02-.228 1.542v8.57h-3.91V37.954zM83.594 32.662c-.003-.62.25-1.214.702-1.641.47-.467 1.113-.72 1.777-.7.664-.015 1.31.223 1.803.668.468.43.734 1.037.734 1.672s-.266 1.24-.734 1.672c-.494.447-1.143.686-1.81.666-.663.021-1.306-.231-1.776-.698-.449-.428-.7-1.02-.696-1.639zm.554 5.293h3.914V53.54h-3.914V37.955zM91.133 37.955h3.718v2.498h.064c.4-.84 1.027-1.554 1.81-2.062.902-.604 1.973-.913 3.06-.881.905-.026 1.803.157 2.624.535.696.332 1.309.815 1.793 1.414.475.594.824 1.278 1.027 2.01.216.761.325 1.55.322 2.34v9.73h-3.921v-8.636c-.002-.479-.034-.956-.097-1.43-.056-.471-.2-.928-.425-1.347-.213-.397-.52-.737-.894-.99-.455-.28-.983-.415-1.517-.388-.566-.015-1.128.113-1.632.372-.439.236-.822.564-1.123.961-.3.407-.527.862-.67 1.347-.149.5-.225 1.02-.225 1.542v8.57h-3.914V37.954zM124.706 37.955v14.19c.016 1.29-.16 2.576-.521 3.815-.313 1.07-.863 2.056-1.61 2.885-.763.816-1.707 1.444-2.755 1.834-1.263.457-2.6.674-3.943.641-.672-.003-1.342-.058-2.006-.163-.707-.106-1.405-.27-2.086-.487-.68-.213-1.34-.484-1.973-.812-.603-.306-1.172-.675-1.696-1.102l2.253-3.02c.746.704 1.62 1.26 2.575 1.638.92.373 1.904.567 2.897.57.807.022 1.61-.116 2.363-.407.599-.236 1.128-.618 1.538-1.112.392-.5.67-1.079.815-1.696.17-.704.252-1.427.245-2.151V51.44h-.065c-.56.76-1.307 1.363-2.17 1.753-.926.414-1.932.62-2.948.606-1.1.018-2.19-.2-3.196-.641-.923-.41-1.75-1.007-2.427-1.754-.674-.75-1.2-1.62-1.552-2.564-.371-1.004-.559-2.066-.553-3.136-.007-1.083.175-2.159.537-3.18.338-.957.858-1.84 1.532-2.6.675-.744 1.497-1.341 2.414-1.754 1.001-.441 2.086-.66 3.18-.641 1.071-.008 2.13.225 3.097.68.958.458 1.754 1.194 2.282 2.112h.065v-2.337l3.708-.029zm-8.347 2.725c-.657-.012-1.31.122-1.908.392-.538.245-1.016.604-1.4 1.051-.394.461-.693.993-.883 1.568-.213.625-.322 1.282-.321 1.943.002.617.111 1.23.321 1.811.2.571.498 1.103.882 1.57.382.467.86.848 1.4 1.117.583.287 1.227.431 1.877.42 1.305.023 2.553-.526 3.415-1.5.408-.461.723-.994.93-1.572.216-.596.325-1.225.323-1.86.005-.654-.104-1.305-.322-1.923-.206-.582-.522-1.12-.93-1.584-.402-.455-.897-.819-1.452-1.067-.61-.261-1.269-.386-1.932-.366z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="url(#q8a0p9qu5a)" d="M149.855 34.342L149.855 45.791 139.902 40.068 129.946 34.342 139.902 28.62 149.855 22.897z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#29B19B" d="M149.855 38.924L149.855 41.213 147.866 40.068 145.873 38.924 147.866 37.779 149.855 36.634z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#3BB08C" d="M149.855 34.342L149.855 36.634 147.866 35.487 145.873 34.342 147.866 33.198 149.855 32.053z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#5EB576" d="M149.855 29.764L149.855 32.053 147.866 30.909 145.873 29.764 147.866 28.62 149.855 27.475z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#6EB75E" d="M149.855 25.186L149.855 27.475 147.866 26.331 145.873 25.186 147.866 24.041 149.855 22.897z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#20AF98" d="M145.873 41.213L145.873 43.502 143.884 42.357 141.892 41.213 143.884 40.068 145.873 38.924z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#34B190" d="M145.873 36.634L145.873 38.924 143.884 37.779 141.892 36.634 143.884 35.487 145.873 34.342z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#4CB27B" d="M145.873 32.053L145.873 34.342 143.884 33.198 141.892 32.053 143.884 30.909 145.873 29.764z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#61B45A" d="M145.873 27.475L145.873 29.764 143.884 28.62 141.892 27.475 143.884 26.331 145.873 25.186z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#72B96C" d="M145.873 27.475L145.873 25.186 147.866 26.331 149.855 27.475 147.866 28.62 145.873 29.764z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#60B680" d="M145.873 32.053L145.873 29.764 147.866 30.909 149.855 32.053 147.866 33.198 145.873 34.342z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#47B28A" d="M145.873 36.634L145.873 34.342 147.866 35.487 149.855 36.634 147.866 37.779 145.873 38.924z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#3AB294" d="M145.873 41.213L145.873 38.924 147.866 40.068 149.855 41.213 147.866 42.357 145.873 43.502z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#40B291" d="M141.892 38.924L141.892 41.213 139.902 40.068 137.91 38.924 139.902 37.779 141.892 36.634z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#4FB37A" d="M141.892 34.342L141.892 36.634 139.902 35.487 137.91 34.342 139.902 33.198 141.892 32.053z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#5FB364" d="M141.892 29.764L141.892 32.053 139.902 30.909 137.91 29.764 139.902 28.62 141.892 27.475z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#6BB76C" d="M141.892 29.764L141.892 27.475 143.884 28.62 145.873 29.764 143.884 30.909 141.892 32.053z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#5BB57E" d="M141.892 34.342L141.892 32.053 143.884 33.198 145.873 34.342 143.884 35.487 141.892 36.634z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#4AB38D" d="M141.892 38.924L141.892 36.634 143.884 37.779 145.873 38.924 143.884 40.068 141.892 41.213z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#51B276" d="M137.91 36.634L137.91 38.924 135.921 37.779 133.928 36.634 135.921 35.487 137.91 34.342z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#57B165" d="M137.91 32.053L137.91 34.342 135.921 33.198 133.928 32.053 135.921 30.909 137.91 29.764z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#69B773" d="M137.91 32.053L137.91 29.764 139.902 30.909 141.892 32.053 139.902 33.198 137.91 34.342z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#5FB783" d="M137.91 36.634L137.91 34.342 139.902 35.487 141.892 36.634 139.902 37.779 137.91 38.924z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#47AE61" d="M133.928 34.342L133.928 36.634 131.939 35.487 129.946 34.342 131.939 33.198 133.928 32.053z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#62B56F" d="M133.928 34.342L133.928 32.053 135.921 33.198 137.91 34.342 135.921 35.487 133.928 36.634z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#00ACA9" d="M149.855 43.502L149.855 45.791 147.866 44.646 145.873 43.502 147.866 42.357 149.855 41.213z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="url(#natkdtk3pb)" d="M129.946 22.894L129.946 34.342 139.902 28.62 149.855 22.894 139.902 17.171 129.946 11.445z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#005A4D" d="M129.946 32.053L129.946 34.342 131.939 33.198 133.928 32.053 131.939 30.909 129.946 29.764z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#0A664F" d="M129.946 27.475L129.946 29.764 131.939 28.62 133.928 27.475 131.939 26.331 129.946 25.186z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#19824A" d="M129.946 22.897L129.946 25.186 131.939 24.041 133.928 22.897 131.939 21.749 129.946 20.605z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#34973F" d="M129.946 18.316L129.946 20.605 131.939 19.46 133.928 18.316 131.939 17.171 129.946 16.027z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#57AD32" d="M129.946 13.738L129.946 16.027 131.939 14.882 133.928 13.738 131.939 12.593 129.946 11.448z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#0A664F" d="M133.928 29.764L133.928 32.053 135.921 30.909 137.91 29.764 135.921 28.62 133.928 27.475z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#1A824A" d="M133.928 25.186L133.928 27.475 135.921 26.331 137.91 25.186 135.921 24.041 133.928 22.897z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#34973F" d="M133.928 20.605L133.928 22.897 135.921 21.749 137.91 20.605 135.921 19.46 133.928 18.316z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#57AD32" d="M133.928 16.027L133.928 18.316 135.921 17.171 137.91 16.027 135.921 14.882 133.928 13.738z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#41A837" d="M133.928 16.027L133.928 13.738 131.939 14.882 129.946 16.027 131.939 17.171 133.928 18.316z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#2C9042" d="M133.928 20.605L133.928 18.316 131.939 19.46 129.946 20.605 131.939 21.749 133.928 22.897z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#0C7B4C" d="M133.928 25.186L133.928 22.897 131.939 24.041 129.946 25.186 131.939 26.331 133.928 27.475z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#096B4E" d="M133.928 29.764L133.928 27.475 131.939 28.62 129.946 29.764 131.939 30.909 133.928 32.053z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#1C824B" d="M137.91 27.475L137.91 29.764 139.902 28.62 141.892 27.475 139.902 26.331 137.91 25.186z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#34973F" d="M137.91 22.897L137.91 25.186 139.902 24.041 141.892 22.897 139.902 21.749 137.91 20.605z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#57AD32" d="M137.91 18.316L137.91 20.605 139.902 19.46 141.892 18.316 139.902 17.171 137.91 16.027z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#41A837" d="M137.91 18.316L137.91 16.027 135.921 17.171 133.928 18.316 135.921 19.46 137.91 20.605z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#2C9042" d="M137.91 22.897L137.91 20.605 135.921 21.749 133.928 22.897 135.921 24.041 137.91 25.186z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#157F4D" d="M137.91 27.475L137.91 25.186 135.921 26.331 133.928 27.475 135.921 28.62 137.91 29.764z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#34973F" d="M141.892 25.186L141.892 27.475 143.884 26.331 145.873 25.186 143.884 24.041 141.892 22.897z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#47AB36" d="M141.892 20.605L141.892 22.897 143.884 21.749 145.873 20.605 143.884 19.46 141.892 18.316z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#41A837" d="M141.892 20.605L141.892 18.316 139.902 19.46 137.91 20.605 139.902 21.749 141.892 22.897z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#2C9042" d="M141.892 25.186L141.892 22.897 139.902 24.041 137.91 25.186 139.902 26.331 141.892 27.475z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#3F9D36" d="M145.873 22.897L145.873 25.186 147.866 24.041 149.855 22.897 147.866 21.749 145.873 20.605z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#42A436" d="M145.873 22.897L145.873 20.605 143.884 21.749 141.892 22.897 143.884 24.041 145.873 25.186z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="url(#bs62voaq2c)" d="M149.855 11.448L149.855 22.897 139.902 17.171 129.946 11.448 139.902 5.723 149.855 0z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#7CB83F" d="M149.855 20.605L149.855 22.897 147.866 21.749 145.873 20.605 147.866 19.46 149.855 18.316z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#7BB83B" d="M149.855 16.027L149.855 18.316 147.866 17.171 145.873 16.027 147.866 14.882 149.855 13.738z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#7BB838" d="M149.855 11.448L149.855 13.738 147.866 12.593 145.873 11.448 147.866 10.304 149.855 9.159z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#7DB830" d="M149.855 6.87L149.855 9.159 147.866 8.015 145.873 6.87 147.866 5.723 149.855 4.578z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#7FB92E" d="M149.855 2.289L149.855 4.578 147.866 3.434 145.873 2.289 147.866 1.145 149.855 0z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#92BE30" d="M145.873 18.316L145.873 20.605 143.884 19.46 141.892 18.316 143.884 17.171 145.873 16.027z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#96BE31" d="M145.873 13.738L145.873 16.027 143.884 14.882 141.892 13.738 143.884 12.593 145.873 11.448z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#92BE30" d="M145.873 9.159L145.873 11.448 143.884 10.304 141.892 9.159 143.884 8.015 145.873 6.87z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#A0C22D" d="M145.873 4.578L145.873 6.87 143.884 5.723 141.892 4.578 143.884 3.434 145.873 2.289z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#8BBD37" d="M145.873 4.578L145.873 2.289 147.866 3.434 149.855 4.578 147.866 5.723 145.873 6.87z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#8CBC31" d="M145.873 9.159L145.873 6.87 147.866 8.015 149.855 9.159 147.866 10.304 145.873 11.448z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#87BA31" d="M145.873 13.738L145.873 11.448 147.866 12.593 149.855 13.738 147.866 14.882 145.873 16.027z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#8ABC3D" d="M145.873 18.316L145.873 16.027 147.866 17.171 149.855 18.316 147.866 19.46 145.873 20.605z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#B1C837" d="M141.892 16.027L141.892 18.316 139.902 17.171 137.91 16.027 139.902 14.882 141.892 13.738z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#BCCB35" d="M141.892 11.448L141.892 13.738 139.902 12.593 137.91 11.448 139.902 10.304 141.892 9.159z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#B3C937" d="M141.892 6.87L141.892 9.159 139.902 8.015 137.91 6.87 139.902 5.723 141.892 4.578z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#A0C335" d="M141.892 6.87L141.892 4.578 143.884 5.723 145.873 6.87 143.884 8.015 141.892 9.159z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#A5C335" d="M141.892 11.448L141.892 9.159 143.884 10.304 145.873 11.448 143.884 12.593 141.892 13.738z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#A7C435" d="M141.892 16.027L141.892 13.738 143.884 14.882 145.873 16.027 143.884 17.171 141.892 18.316z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#D5D230" d="M137.91 13.738L137.91 16.027 135.921 14.882 133.928 13.738 135.921 12.593 137.91 11.448z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#D6D230" d="M137.91 9.159L137.91 11.448 135.921 10.304 133.928 9.159 135.921 8.015 137.91 6.87z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#C7CF36" d="M137.91 9.159L137.91 6.87 139.902 8.015 141.892 9.159 139.902 10.304 137.91 11.448z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#CCD13A" d="M137.91 13.738L137.91 11.448 139.902 12.593 141.892 13.738 139.902 14.882 137.91 16.027z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#F2E141" d="M133.928 11.448L133.928 13.738 131.939 12.593 129.946 11.448 131.939 10.304 133.928 9.159z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                        <path fill="#DAD53B" d="M133.928 11.448L133.928 9.159 135.921 10.304 137.91 11.448 135.921 12.593 133.928 13.738z" transform="translate(0 -2590) translate(0 2590) translate(1108 160)"/>
+                    </g>
+                </g>
+                <text fill="#FFF" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" transform="translate(0 -2590) translate(0 2590)">
+                    <tspan x="151" y="89">Keep informed</tspan>
+                </text>
+                <path fill="#3DAA01" d="M152 30H182V35H152z" transform="translate(0 -2590) translate(0 2590)"/>
+                <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="18" transform="translate(0 -2590) translate(0 2590)">
+                    <tspan x="152" y="142">Sign up to receive </tspan> <tspan x="152" y="168">the latest newsletter </tspan> <tspan x="152" y="194">on our news, events </tspan> <tspan x="152" y="220">and ideas.</tspan>
+                </text>
+                <g>
+                    <g>
+                        <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="18" transform="translate(0 -2590) translate(0 2590) translate(346 126) translate(254 68)">
+                            <tspan x=".484" y="19">SUBMIT</tspan>
+                        </text>
+                        <g>
+                            <g transform="translate(0 -2590) translate(0 2590) translate(346 126) translate(254 68) translate(83 1) translate(6 2)">
+                                <use fill="#0BB5B5" transform="rotate(-90 8 9.5)" xlink:href="#3q26y0rcmd"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <path stroke="#FFF" stroke-linecap="square" d="M0.402 34.5L237.598 34.5" transform="translate(0 -2590) translate(0 2590) translate(346 126) translate(0 52)"/>
+                        <text fill="#FFF" font-family="Lato-Italic, Lato" font-size="18" font-style="italic" opacity=".5" transform="translate(0 -2590) translate(0 2590) translate(346 126) translate(0 52)">
+                            <tspan x="5" y="18">Email address</tspan>
+                        </text>
+                    </g>
+                    <g>
+                        <path stroke="#FFF" stroke-linecap="square" d="M0.402 34.5L237.598 34.5" transform="translate(0 -2590) translate(0 2590) translate(346 126)"/>
+                        <text fill="#FFF" font-family="Lato-Italic, Lato" font-size="18" font-style="italic" opacity=".5" transform="translate(0 -2590) translate(0 2590) translate(346 126)">
+                            <tspan x="5" y="18">First name</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
