@@ -1,36 +1,5 @@
 (function($) {
   
-  // header plugin.
-  $.fn.header = function() {
-    return this.each(function() {
-      var $this = $(this);
-      var $document = $(document);
-      var button = $this.find('.js-header-button');
-      var panel = $this.find('.js-header-panel');
-      
-      function scroll() {
-        if ($document.scrollTop() > 0) {
-          $this.addClass('active');
-        } else {
-          $this.removeClass('active');
-        }
-      }
-      scroll();
-      
-      // Attach scroll event listener.
-      $(window).on('scroll', function(e) {
-        scroll();
-      });
-      
-      // Attach click event listener.
-      button.on('click', function(e) {
-        button.toggleClass('active');
-        panel.fadeToggle();
-        e.preventDefault();
-      });
-    });
-  }
-  
   // io plugin.
   $.fn.io = function() {
     return this.each(function(event) {
@@ -60,10 +29,46 @@
     });
   };
   
+  var downingVentures = {};
+  
+  downingVentures.topAppBar = function() {
+    var $document = $(document);
+    var topAppBar = $('#top-app-bar');
+    
+    function scroll() {
+      if ($document.scrollTop() > 0) {
+        topAppBar.addClass('active');
+      } else {
+        topAppBar.removeClass('active');
+      }
+    }
+    scroll();
+    
+    // Attach scroll event listener.
+    $(window).on('scroll', function(e) {
+      scroll();
+    });
+  };
+  
+  downingVentures.menuButton = function() {
+    var menuButton = $('#menu-button');
+    var drawer = $('#drawer');
+    
+    // Attach click event listener.
+    menuButton.on('click', function(e) {
+      menuButton.toggleClass('active');
+      drawer.fadeToggle();
+      e.preventDefault();
+    });
+  };
+  
   $(document).ready(function() {
     
-    // Initialize header.
-    $('.js-header').header();
+    // Initialize topAppBar.
+    downingVentures.topAppBar();
+    
+    // Initialize menuButton.
+    downingVentures.menuButton();
     
     // Initialize io.
     $('.js-io').io();
