@@ -221,17 +221,17 @@ h5 {
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 1.2em;
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 1.2em;
     }
 
     h5 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.2em;
     }
 
@@ -246,17 +246,17 @@ h5 {
     }
 
     .headline-3 {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 1.2em;
     }
 
     .headline-4 {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 1.2em;
     }
 
     .headline-5 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.2em;
     }
 }
@@ -533,6 +533,21 @@ a {
     padding-right: 30px;
 }
 
+.margin-30 {
+    margin: 0 0 30px 0;
+    min-height: 1px;
+}
+
+.margin-60 {
+    margin: 0 0 60px 0;
+    min-height: 1px;
+}
+
+.margin-120 {
+    margin: 0 0 120px 0;
+    min-height: 1px;
+}
+
 @media screen and (min-width: 768px) {
     .row-10-768 {
         margin-left: -10px;
@@ -696,6 +711,21 @@ a {
     .gutter-30-768 {
         padding-left: 30px;
         padding-right: 30px;
+    }
+    
+    .margin-30-768 {
+        margin: 0 0 30px 0;
+        min-height: 1px;
+    }
+    
+    .margin-60-768 {
+        margin: 0 0 60px 0;
+        min-height: 1px;
+    }
+
+    .margin-120-768 {
+        margin: 0 0 120px 0;
+        min-height: 1px;
     }
 }
 
@@ -862,6 +892,21 @@ a {
     .gutter-30-1024 {
         padding-left: 30px;
         padding-right: 30px;
+    }
+    
+    .margin-30-1024 {
+        margin: 0 0 30px 0;
+        min-height: 1px;
+    }
+    
+    .margin-60-1024 {
+        margin: 0 0 60px 0;
+        min-height: 1px;
+    }
+
+    .margin-120-1024 {
+        margin: 0 0 120px 0;
+        min-height: 1px;
     }
 }
 
