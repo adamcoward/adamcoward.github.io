@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <linearGradient id="v88wwzuvrb" x1="-8.093%" x2="92.41%" y1="108.157%" y2="7.543%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="45iq3ilgfe" x1="-115.297%" x2="85.558%" y1="215.477%" y2="14.402%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="dp8muz8tch" x1="-329.854%" x2="71.844%" y1="430.257%" y2="28.13%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <path id="z4sem9nnga" d="M0 0.052L0 71.014 71.948 71.014 36 35.559 35.947 35.559 35.947 35.507z"/>
+        <path id="lax94e9rbd" d="M0.947 0.052L0.947 35.507 0.947 35.559 1 35.559 36.948 35.559 18.947 17.806z"/>
+        <path id="8u8rlchp5g" d="M0.947 0.052L0.947 17.806 18.948 17.806z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-249 -1365) translate(249 1365) translate(0 .934)">
+                    <mask id="85gmduuduc" fill="#fff">
+                        <use xlink:href="#z4sem9nnga"/>
+                    </mask>
+                    <path fill="url(#v88wwzuvrb)" d="M0 0.052L0 71.014 71.948 71.014 36 35.559 35.947 35.559 35.947 35.507z" mask="url(#85gmduuduc)"/>
+                </g>
+                <g transform="translate(-249 -1365) translate(249 1365) translate(35 .934)">
+                    <mask id="8gkshl97cf" fill="#fff">
+                        <use xlink:href="#lax94e9rbd"/>
+                    </mask>
+                    <path fill="url(#45iq3ilgfe)" d="M0.947 0.052L0.947 35.507 0.947 35.559 1 35.559 36.948 35.559 18.947 17.806z" mask="url(#8gkshl97cf)"/>
+                </g>
+                <g transform="translate(-249 -1365) translate(249 1365) translate(53 .934)">
+                    <mask id="lzydkqii9i" fill="#fff">
+                        <use xlink:href="#8u8rlchp5g"/>
+                    </mask>
+                    <path fill="url(#dp8muz8tch)" d="M0.947 0.052L0.947 17.806 18.948 17.806z" mask="url(#lzydkqii9i)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

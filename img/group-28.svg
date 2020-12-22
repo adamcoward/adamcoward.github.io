@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <linearGradient id="0kgiww0vyb" x1="-91.939%" x2="235.573%" y1="244.079%" y2="-88.371%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="2bwipykj1e" x1="-42.687%" x2="284.825%" y1="194.084%" y2="-138.365%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="ogvzicgx0h" x1="6.565%" x2="334.077%" y1="144.09%" y2="-188.359%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="8fajt6ad3k" x1="-141.933%" x2="185.579%" y1="294.827%" y2="-37.623%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="ohbl6y9zdn" x1="-92.681%" x2="234.831%" y1="244.832%" y2="-87.617%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="xngnd9ld3q" x1="-43.429%" x2="284.082%" y1="194.838%" y2="-137.611%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="2pm8jxzidt" x1="-191.928%" x2="135.584%" y1="345.575%" y2="13.126%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="mwpurj033w" x1="-142.676%" x2="184.836%" y1="295.58%" y2="-36.869%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <linearGradient id="3sibff5iwz" x1="-93.424%" x2="234.088%" y1="245.586%" y2="-86.863%">
+            <stop offset="0%" stop-color="#00594D"/>
+            <stop offset="100%" stop-color="#95BD31"/>
+        </linearGradient>
+        <path id="9s24nyo36a" d="M0 24L24 24 24 0z"/>
+        <path id="94kfywbwgd" d="M0 24L24 24 24 0z"/>
+        <path id="7jn3mklalg" d="M0 24L24 24 24 0z"/>
+        <path id="fw1t65jm2j" d="M0 24L24 24 24 0z"/>
+        <path id="70ioce8zjm" d="M24 0L0 24 24 24z"/>
+        <path id="15okx2wtbp" d="M0 24L24 24 24 0z"/>
+        <path id="7i3hqrxefs" d="M24 0L0 24 24 24z"/>
+        <path id="9z7m23ic4v" d="M24 0L0 24 24 24z"/>
+        <path id="owbkqizzpy" d="M24 0L0 24 24 24z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(48 48)">
+                    <mask id="74ljrml6jc" fill="#fff">
+                        <use xlink:href="#9s24nyo36a"/>
+                    </mask>
+                    <path fill="url(#0kgiww0vyb)" d="M0 24L24 24 24 0z" mask="url(#74ljrml6jc)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(24 48)">
+                    <mask id="wpos7dpdgf" fill="#fff">
+                        <use xlink:href="#94kfywbwgd"/>
+                    </mask>
+                    <path fill="url(#2bwipykj1e)" d="M0 24L24 24 24 0z" mask="url(#wpos7dpdgf)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(0 48)">
+                    <mask id="6nnlupidai" fill="#fff">
+                        <use xlink:href="#7jn3mklalg"/>
+                    </mask>
+                    <path fill="url(#ogvzicgx0h)" d="M0 24L24 24 24 0z" mask="url(#6nnlupidai)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(48 24)">
+                    <mask id="6bko4s3zbl" fill="#fff">
+                        <use xlink:href="#fw1t65jm2j"/>
+                    </mask>
+                    <path fill="url(#8fajt6ad3k)" d="M0 24L24 24 24 0z" mask="url(#6bko4s3zbl)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(24 24)">
+                    <mask id="bye69zdi9o" fill="#fff">
+                        <use xlink:href="#70ioce8zjm"/>
+                    </mask>
+                    <path fill="url(#ohbl6y9zdn)" d="M24 0L0 24 24 24z" mask="url(#bye69zdi9o)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(0 24)">
+                    <mask id="grp0jtnedr" fill="#fff">
+                        <use xlink:href="#15okx2wtbp"/>
+                    </mask>
+                    <path fill="url(#xngnd9ld3q)" d="M0 24L24 24 24 0z" mask="url(#grp0jtnedr)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(48)">
+                    <mask id="n62ow5ah8u" fill="#fff">
+                        <use xlink:href="#7i3hqrxefs"/>
+                    </mask>
+                    <path fill="url(#2pm8jxzidt)" d="M24 0L0 24 24 24z" mask="url(#n62ow5ah8u)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365) translate(24)">
+                    <mask id="ukl1sxy9zx" fill="#fff">
+                        <use xlink:href="#9z7m23ic4v"/>
+                    </mask>
+                    <path fill="url(#mwpurj033w)" d="M24 0L0 24 24 24z" mask="url(#ukl1sxy9zx)"/>
+                </g>
+                <g transform="translate(-1029 -1365) translate(1029 1365)">
+                    <mask id="6fa064vpcA" fill="#fff">
+                        <use xlink:href="#owbkqizzpy"/>
+                    </mask>
+                    <path fill="url(#3sibff5iwz)" d="M24 0L0 24 24 24z" mask="url(#6fa064vpcA)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
