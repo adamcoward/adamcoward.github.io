@@ -77,5 +77,31 @@
     var rellax = new Rellax('.rellax', {
       center: true
     });
+    
+    // Initialize owlCarousel.
+    $('.js-carousel').owlCarousel({
+      dots: true,
+      items: 2,
+      loop: true,
+      margin: 20,
+      nav: false,
+      responsive: {
+        768: {
+            items: 4,
+        }
+      }
+    });
+    $('.js-carousel-2').owlCarousel({
+      dots: false,
+      items: 1,
+      loop: true,
+      margin: 20,
+      nav: true,
+      responsive: {
+        768: {
+            items: 3
+        }
+      }
+    });
   });
 })(jQuery);
