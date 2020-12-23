@@ -336,6 +336,10 @@ a {
     }
 }
 
+.button.disabled {
+    opacity: 0.5;
+}
+
 /* Layout */
 .container {
     margin: 0 auto;
@@ -360,7 +364,15 @@ a {
     margin-right: -30px;
 }
 
-.flex-end {
+.row.center,
+.row-10.center,
+.row-30.center {
+    align-items: center;
+}
+
+.row.flex-end,
+.row-10.flex-end,
+.row-30.flex-end {
     align-items: flex-end;
 }
 
@@ -548,6 +560,11 @@ a {
     min-height: 1px;
 }
 
+.margin-90 {
+    margin: 0 0 90px 0;
+    min-height: 1px;
+}
+
 .margin-120 {
     margin: 0 0 120px 0;
     min-height: 1px;
@@ -730,6 +747,11 @@ a {
     
     .margin-60-768 {
         margin: 0 0 60px 0;
+        min-height: 1px;
+    }
+    
+    .margin-90-768 {
+        margin: 0 0 90px 0;
         min-height: 1px;
     }
 
@@ -916,6 +938,11 @@ a {
     
     .margin-60-1024 {
         margin: 0 0 60px 0;
+        min-height: 1px;
+    }
+    
+    .margin-90-1024 {
+        margin: 0 0 90px 0;
         min-height: 1px;
     }
 
@@ -1622,7 +1649,7 @@ input {
     display: none;
     justify-content: space-evenly;
     list-style: none;
-    margin: 0 0 90px 0;
+    margin: 0 0 60px 0;
     padding: 0;
     text-transform: uppercase;
 }
@@ -1630,12 +1657,6 @@ input {
 @media screen and (min-width: 768px) {
     .tab-bar {
        display: flex;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .tab-bar {
-        margin: 0 0 120px 0;
     }
 }
 
@@ -1914,6 +1935,160 @@ blockquote {
 
 .card-6__subtitle {
     font-weight: bold;
+}
+
+/* Card 7 */
+.card-7 {
+    display: block;
+    margin: 0 0 60px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .card-7 {
+        margin: 0 0 120px 0;
+    }
+    
+    .card-7--0 {
+        padding: 0 420px 0 0;
+    }
+    
+    .card-7--1 {
+        padding: 0 0 0 420px;
+    }
+}
+
+.card-7__content {
+    background: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    padding: 30px 45px 20px 20px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .card-7__content {
+        bottom: 30px;
+        position: absolute;
+        width: 480px;
+    }
+    
+    .card-7--0 .card-7__content {
+        right: 0;
+    }
+
+    .card-7--1 .card-7__content {
+        left: 0;
+    }
+}
+
+.card-7__content:before {
+    background: #61B830;
+    content: "";
+    height: 5px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+
+.card-7__content:after {
+    background: url(../img/arrow-right.svg) no-repeat;
+    bottom: 10px;
+    content: "";
+    height: 18px;
+    right: 10px;
+    position: absolute;
+    width: 15px;
+}
+
+/* Pagination */
+.pagination {
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
+/* Block 5 */
+.block-5 {
+    border: 5px solid #61B830;
+    margin: 0 0 60px 0;
+    padding: 30px 30px 10px 30px;
+    position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+    .block-5 {
+        margin: 30px 0 60px 90px;
+    }
+    
+    .block-5__title {
+        margin: -65px 0 0 -125px;
+        position: relative;
+    }
+
+    .block-5__title h2 {
+        background: #FFF;
+        display: inline-block;
+        padding: 0 20px 20px 0;
+    }
+}
+
+/* Richtext */
+.richtext ul {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.richtext li {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.richtext li:before {
+    background: #61B830;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0.6em;
+    width: 15px;
+}
+
+/* Card 8 */
+.card-8 {
+    margin: 0 0 30px 0;
+    padding: 0 0 60px 90px;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .card-8 {
+        margin: 0 0 60px 0;
+    }
+}
+
+.card-8__content {
+    background: rgba(255, 255, 255, 0.85);
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 220px;
+    z-index: 2;
+}
+
+.card-8__content:before {
+    background: #61B830;
+    content: "";
+    height: 5px;
+    left: 10px;
+    position: absolute;
+    top: 0;
+    width: 30px;
 }
 
 /* ==========================================================================

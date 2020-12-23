@@ -2,30 +2,63 @@
   
   // io plugin.
   $.fn.io = function() {
-    return this.each(function(event) {
-      var $this = $(this);
-      var delay = $this.attr('data-io-delay');
-      if ('IntersectionObserver' in window) {
-        var callback = function(entries, observer) {
-          var i;
-          for (i = 0; i < entries.length; i++) {
-            if (entries[i].isIntersecting) {
-              if (delay) {
-                setTimeout(function() {
-                  $this.addClass('active');
-                }, delay);
-              } else {
+    if ('IntersectionObserver' in window) {
+      var callback = function(entries, observer) {
+        var i;
+        for (i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) {
+            var $this = $(entries[i].target);
+            var delay = $this.attr('data-delay');
+            if (delay) {
+              setTimeout(function() {
                 $this.addClass('active');
-              }
+              }, delay);
+            } else {
+              $this.addClass('active');
             }
           }
         }
-        var options = {
-          //threshold: 0.9
-        }
-        var observer = new IntersectionObserver(callback, options);
-        observer.observe($this[0]);
       }
+      var options = {
+        //threshold: 0.9
+      }
+      var observer = new IntersectionObserver(callback, options);
+      this.each(function() {
+        observer.observe(this);
+      });
+    }
+    return this;
+  };
+  
+  // pagination plugin.
+  $.fn.pagination = function() {
+    return this.each(function(e) {
+      var $this = $(this);
+      var lock = false;
+      var page = $this.attr('data-pagination-page');
+      var url = $this.attr('data-pagination-url');
+      var content = $this.find('.js-pagination-content');
+      var container = $this.find('.js-pagination-container');
+      var button = $this.find('.js-pagination-button');
+      
+      // Attach click event listener.
+      button.on('click', function(e) {
+        if (!lock) {
+          lock = true;
+          button.addClass('disabled');
+          $.getJSON(url + '?p=' + page, function(data) {
+            content.append(data['result']);
+            if (data['status'] == 'END') {
+              container.fadeOut();
+            } else {
+              page ++;
+            }
+            lock = false;
+            button.removeClass('disabled');
+          });
+        }
+        e.preventDefault();
+      });
     });
   };
   
@@ -103,5 +136,8 @@
         }
       }
     });
+    
+    // Initialize pagination.
+    $('.js-pagination').pagination();
   });
 })(jQuery);
