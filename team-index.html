@@ -132,26 +132,31 @@
   </div>
   <div class="block">
     <div class="container">
-      <select class="select-field__input">
-        <option selected value="">All</option>
-        <option value="">Enterprise</option>
-        <option value="">Deep tech</option>
-        <option value="">Healthcare</option>
-      </select>
-      <ul class="headline-5 tab-bar">
-        <li>
-          <a class="active" href="#">All</a>
-        </li>
-        <li>
-          <a href="#">Enterprise</a>
-        </li>
-        <li>
-          <a href="#">Deep tech</a>
-        </li>
-        <li>
-          <a href="#">Healthcare</a>
-        </li>
-      </ul>
+      <div class="hidden-768">
+        <select class="headline-5 select-field__input">
+          <option selected value="">All</option>
+          <option value="">Enterprise</option>
+          <option value="">Deep tech</option>
+          <option value="">Healthcare</option>
+        </select>
+      </div>
+      <div class="hidden show-768">
+        <ul class="headline-5 tab-bar">
+          <li>
+            <a class="active" href="#">All</a>
+          </li>
+          <li>
+            <a href="#">Enterprise</a>
+          </li>
+          <li>
+            <a href="#">Deep tech</a>
+          </li>
+          <li>
+            <a href="#">Healthcare</a>
+          </li>
+        </ul>
+      </div>
+      <div class="margin-30"></div>
       <div class="row-10">
         <div class="col-12 col-4-768 gutter-10">
           <a class="card-3 io-2 js-io" href="#">

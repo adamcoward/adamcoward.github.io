@@ -1623,9 +1623,7 @@ input {
     color: #565A5C;
     border-width: 0 0 1px 0;
     display: block;
-    font-size: 18px;
-    line-height: 1em;
-    margin: 0 0 60px 0;
+    margin: 0 0 20px 0;
     padding: 10px 29px 10px 5px;
     text-transform: uppercase;
     transition: border-color 250ms;
@@ -1634,7 +1632,8 @@ input {
 
 @media screen and (min-width: 768px) {
     .select-field__input {
-        display: none;
+        margin: 0 0 60px 0;
+        padding: 20px 29px 20px 5px;
     }
 }
 
@@ -1646,18 +1645,12 @@ input {
 /* Tabs */
 .tab-bar {
     border-bottom: 1px solid #AAACAD;
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     list-style: none;
     margin: 0 0 60px 0;
     padding: 0;
     text-transform: uppercase;
-}
-
-@media screen and (min-width: 768px) {
-    .tab-bar {
-       display: flex;
-    }
 }
 
 .tab-bar a {
@@ -1762,6 +1755,28 @@ input {
     }
 }
 
+.block-3 h4 {
+    background: #FFF;
+    border-color: #FFF;
+    border-style: solid;
+    border-width: 30px 0 30px 0;
+    margin: 0 0 20px -35px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .block-3 h4 {
+        border-width: 60px 0 60px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .block-3 h4 {
+        margin: 0 0 20px -95px;
+    }
+}
+
 /* Blockquote */
 blockquote {
     background: #F0F0F0;
@@ -1770,20 +1785,22 @@ blockquote {
     border-width: 30px 0 30px 0;
     margin: 0 0 0 -35px;
     padding: 30px 30px 10px 30px;
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
     blockquote {
         border-width: 60px 0 60px 0;
-        font-size: 18px;
-        line-height: 1.2em;
+        /*font-size: 18px;
+        line-height: 1.2em;*/
     }
 }
 
 @media screen and (min-width: 1280px) {
     blockquote {
-        font-size: 30px;
-        line-height: 1.2em;
+        /*font-size: 30px;
+        line-height: 1.2em;*/
         margin: 0 0 0 -270px;
         padding: 30px 30px 10px 90px;
     }
@@ -2091,6 +2108,63 @@ blockquote {
     width: 30px;
 }
 
+/* Block 6 */
+.block-6__media {
+    height: 480px;
+    margin: 0 0 -220px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .block-6__media {
+        height: 640px;
+        margin: 0 0 -300px 0;
+    }
+}
+
+.block-6__media img {
+    height: 100% !important;
+    object-fit: cover;
+    width: 100%;
+}
+
+.block-6__content-wrapper {
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.block-6__title {
+    color: #FFF;
+}
+
+.block-6__content {
+    background: #FFF;
+    padding: 30px 20px 10px 0;
+    position: relative;
+}
+
+.block-6__content:after {
+    background: #FFF;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 50vw;
+}
+
+/* Divider 2 */
+.divider-2 {
+    border-bottom: 1px solid #5F6365;
+    margin: 0 0 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .divider-2 {
+        margin: 0 0 60px 0;
+    }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -2102,6 +2176,16 @@ blockquote {
 .hidden,
 [hidden] {
   display: none !important;
+}
+
+@media screen and (min-width: 768px) {
+    .hidden-768 {
+        display: none !important;
+    }
+    
+    .show-768 {
+        display: block !important;
+    }
 }
 
 /*
