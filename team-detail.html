@@ -29,6 +29,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="OwlCarousel2/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <!--Mailchimp integration-->
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8aaae1641f29e985fb9f0e3f3/4e80a49faa536af4efe88e70a.js");</script>
 </head>
 
 <body>
@@ -263,19 +265,35 @@
                 <p>Sign up to receive the latest newsletter on our news, events and ideas.</p>
               </div>
               <div class="col-12 col-8-768 gutter-10">
-                <form class="form">
-                  <div class="row-10 flex-end">
-                    <div class="col-12 col-8-768 gutter-10">
-                      <label class="sr-only" for="name">First name</label>
-                      <input class="text-field__input" id="name" placeholder="First name" type="text">
-                      <label class="sr-only" for="email">Email</label>
-                      <input class="text-field__input" id="email" placeholder="Email address" type="email">
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                  <form action="https://sheshe.us8.list-manage.com/subscribe/post?u=8aaae1641f29e985fb9f0e3f3&amp;id=9aa2706762" method="post" id="mc-embeddedsubscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <div class="row-10 flex-end">
+                        <div class="col-12 col-8-768 gutter-10">
+                          <div class="mc-field-group">
+                            <label class="sr-only" for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                            <input type="email" value="" name="EMAIL" class="required email text-field__input" id="mce-EMAIL" placeholder="Email Address">
+                          </div>
+                          <div class="mc-field-group">
+                            <label class="sr-only" for="mce-FNAME">First Name</label>
+                            <input type="text" value="" name="FNAME" class="text-field__input" id="mce-FNAME" placeholder="First Name">
+                          </div>
+                          <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-4-768 gutter-10">
+                          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8aaae1641f29e985fb9f0e3f3_9aa2706762" tabindex="-1" value=""></div>
+                          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mcembedded-subscribe" class="button-2"></div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-12 col-4-768 gutter-10">
-                      <input class="button-2" type="submit" value="Submit">
-                    </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
+                <!--End mc_embed_signup-->
               </div>
             </div>
             <div class="divider"></div>
