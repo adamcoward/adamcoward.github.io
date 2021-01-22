@@ -1329,6 +1329,18 @@ input {
     }
 }
 
+.hero--light {
+    color: #FFF;
+}
+
+.hero path {
+    fill: #565A5C;
+}
+
+.hero--light path {
+    fill: #FFF;
+}
+
 .hero__media {
     height: 100%;
     left: 0;
