@@ -393,6 +393,31 @@
       </div>
     </div>
   </footer>
+  <div id="cookieConsent" class="cookie-consent" data-sticky-container data-closable>
+    <div class="cookie-consent__container sticky is-stuck is-at-bottom" data-sticky data-stick-to="bottom" data-sticky-on="small">
+      <div class="snackbar">
+        <div class="snackbar__msg">
+          We use cookies to ensure that we give you the best experience on our website. Click <a href="/privacy-and-cookie-policy">here</a> for more information.
+        </div>
+        <button type="button"
+          class="clear button accept-policy close snackbar__button"
+          aria-label="Close"
+          data-close="cookieConsent"
+          data-cookie-string=".AspNet.Consent=yes; expires=Sun, 23 Jan 2022 13:21:35 GMT; path=/; secure; samesite=none">
+          <span aria-hidden="true">Dismiss</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script>
+      (function () {
+          var button = document.querySelector("#cookieConsent button[data-cookie-string]");
+          button.addEventListener("click", function (event) {
+              document.cookie = button.dataset.cookieString;
+              $('#cookiesConsent').on('close.zf.trigger', handleClose);
+          }, false);
+      })();
+  </script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/vendor/jquery-3.5.1.min.js"></script>
   <script src="js/vendor/rellax.min.js"></script>

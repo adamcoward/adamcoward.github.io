@@ -2143,6 +2143,68 @@ blockquote {
     }
 }
 
+/* sticky */
+.sticky,
+.sticky-container {
+    position: relative;
+}
+
+.sticky {
+    transform: translateZ(0);
+    z-index: 0;
+}
+
+@media print, screen and (min-width: 40em) {
+    .cookie-consent__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+}
+
+.sticky.is-stuck {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.sticky.is-stuck.is-at-bottom {
+    bottom: 0;
+}
+
+/* snackbar */
+.snackbar {
+    align-items: center;
+    background-color: #252C26;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.95;
+    padding: 0.9375rem 1.25rem;
+    z-index: 10;
+}
+
+@media print, screen and (min-width: 40em) {
+    .snackbar {
+        border-radius: 0.1875rem;
+        max-width: 26.25rem;
+        min-width: 18.75rem;
+        padding: 0.9375rem;
+    }
+}
+
+.snackbar__msg {
+    font-size: 0.875rem;
+}
+
+.snackbar .button {
+    font-size: inherit;
+    line-height: 1em;
+    margin: 0 0 0 10px;
+    padding: 10px 20px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
