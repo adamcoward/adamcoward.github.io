@@ -189,26 +189,31 @@
       <div class="block-4__title">
         <h2 class="heading">Select Investments</h2>
       </div>
-      <select class="select-field__input">
-        <option selected value="">All</option>
-        <option value="">Enterprise</option>
-        <option value="">Deep tech</option>
-        <option value="">Healthcare</option>
-      </select>
-      <ul class="headline-5 tab-bar">
-        <li>
-          <a class="active" href="#">All</a>
-        </li>
-        <li>
-          <a href="#">Enterprise</a>
-        </li>
-        <li>
-          <a href="#">Deep tech</a>
-        </li>
-        <li>
-          <a href="#">Healthcare</a>
-        </li>
-      </ul>
+      <div class="hidden-768">
+        <select class="select-field__input">
+          <option selected value="">All</option>
+          <option value="">Enterprise</option>
+          <option value="">Deep tech</option>
+          <option value="">Healthcare</option>
+        </select>
+      </div>
+      <div class="hidden show-768">
+        <ul class="headline-5 tab-bar">
+          <li>
+            <a class="active" href="#">All</a>
+          </li>
+          <li>
+            <a href="#">Enterprise</a>
+          </li>
+          <li>
+            <a href="#">Deep tech</a>
+          </li>
+          <li>
+            <a href="#">Healthcare</a>
+          </li>
+        </ul>
+      </div>
+      <div class="margin-30"></div>
       <div class="row-10">
         <div class="col-6 col-3-768 gutter-10">
           <a class="card-4" href="#">
