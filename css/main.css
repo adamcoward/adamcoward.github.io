@@ -1883,6 +1883,11 @@ blockquote {
     margin: 0 0 30px 0;
     padding: 100% 0 0 0;
     position: relative;
+    transition: filter 250ms;
+}
+
+.card-4:hover {
+    filter: grayscale(0);
 }
 
 .card-4 img {
