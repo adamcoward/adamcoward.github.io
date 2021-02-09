@@ -294,12 +294,13 @@ a {
     padding: 15px 30px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: background-color 250ms, border-color 250ms;
+    transition: background-color 250ms, border-color 250ms, color 250ms;
 }
 
 .button:hover {
     background: #54CBCB;
     border-color: #54CBCB;
+    color: #FFF;
 }
 
 .button.disabled {
