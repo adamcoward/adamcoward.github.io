@@ -1533,6 +1533,10 @@ input {
 }
 
 /* Card 2 */
+.card-2 {
+    height: 100%;
+}
+
 .card-2__content {
     margin: 0 0 60px 0;
 }
