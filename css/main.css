@@ -100,12 +100,16 @@ html {
 }
 
 h1 {
-    font: 30px/1.2em 'Prata', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2em;
     margin: 0 0 20px 0;
 }
 
 h2 {
-    font: 20px/1.2em 'Prata', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
     margin: 0 0 20px 0;
 }
 
@@ -276,10 +280,6 @@ a {
 
 .clear {
     clear: both;
-}
-
-.font-family-2 {
-    font-family: 'Prata', serif;
 }
 
 .color-2 {
