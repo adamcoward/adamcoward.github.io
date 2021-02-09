@@ -30,6 +30,22 @@
     return this;
   };
   
+  // cookie plugin.
+  $.fn.cookie = function() {
+    return this.each(function() {
+      var $this = $(this);
+      var container = $this.find('.cookie-consent__container');
+      var button = $this.find('button[data-cookie-string]');
+      container.addClass('is-stuck is-at-bottom');
+      
+      // Attach click event listener.
+      button.on('click', function(e) {
+        document.cookie = button.attr('data-cookie-string');
+        $this.fadeOut();
+      });
+    });
+  };
+  
   // pagination plugin.
   $.fn.pagination = function() {
     return this.each(function(e) {
@@ -97,14 +113,6 @@
   
   $(document).ready(function() {
     
-    // Cookie consent.
-    $('.cookie-consent__container').addClass('is-stuck is-at-bottom');
-    var button = document.querySelector("#cookieConsent button[data-cookie-string]");
-    button.addEventListener("click", function (event) {
-        document.cookie = button.dataset.cookieString;
-        $('#cookieConsent').fadeOut();
-    }, false);
-    
     // Initialize topAppBar.
     downingVentures.topAppBar();
     
@@ -113,6 +121,9 @@
     
     // Initialize io.
     $('.js-io').io();
+    
+    // Initialize cookie.
+    $('#cookieConsent').cookie();
     
     // Initialize Rellax.
     var rellax = new Rellax('.rellax', {
