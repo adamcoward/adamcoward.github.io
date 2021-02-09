@@ -97,6 +97,14 @@
   
   $(document).ready(function() {
     
+    // Cookie consent.
+    $('.cookie-consent__container').addClass('is-stuck is-at-bottom');
+    var button = document.querySelector("#cookieConsent button[data-cookie-string]");
+    button.addEventListener("click", function (event) {
+        document.cookie = button.dataset.cookieString;
+        $('#cookieConsent').fadeOut();
+    }, false);
+    
     // Initialize topAppBar.
     downingVentures.topAppBar();
     
